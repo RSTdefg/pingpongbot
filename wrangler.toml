@@ -1,0 +1,13 @@
+name = "discord-pp"
+type = "webpack"
+zone_id = ""
+account_id = "ffe5945188bdfd76d3277593507fab02"
+route = ""
+workers_dev = true
+compatibility_date = "2021-10-20"
+webpack_config = "webpack.config.js"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
